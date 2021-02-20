@@ -1,15 +1,14 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: "AIzaSyB6Izsku_qLcnr9lc0Ivj5eejB7-5FCaRE",
-  authDomain: "test-form-d3492.firebaseapp.com",
-  databaseURL: "https://test-form-d3492.firebaseio.com",
-  projectId: "test-form-d3492",
-  storageBucket: "test-form-d3492.appspot.com",
-  messagingSenderId: "222398070278",
-  appId: "1:222398070278:web:bf51f5c8a26dcfff9ecd87",
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+  var firebaseConfig = {
+    apiKey: "AIzaSyAoE2u9woqdCn61PS09pLjAUk_3ypmuZ5Y",
+    authDomain: "test-form-d4c4b.firebaseapp.com",
+    projectId: "test-form-d4c4b",
+    storageBucket: "test-form-d4c4b.appspot.com",
+    messagingSenderId: "477542165259",
+    appId: "1:477542165259:web:40f975c7d7a33aade9100e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 // Refernece contactInfo collections
 let contactInfo = firebase.database().ref("infos");
